@@ -8,7 +8,10 @@ From: pavel-demin/singularity-ubuntu:1804
 
 %post
 
-    apt-get dist-upgrade 
+    sed -i 's/bionic/disco/g' /etc/apt/sources.list
+    apt-get update
+    apt-get --yes upgrade
+    apt-get --yes dist-upgrade 
 
 %labels
 
@@ -16,7 +19,7 @@ From: pavel-demin/singularity-ubuntu:1804
 
     NAME singularity_example_5
  
-    DESCRIPTION Singularity example 5: Singularity 2.5, Ubuntu 18.10 (cosmic)
+    DESCRIPTION Singularity example 5: Singularity 2.5, Ubuntu 19.04 (disco)
 
     USAGE simply run the container
 

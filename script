@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo singularity build ubuntu_cosmic.simg singularity_example_5.txt
+sudo singularity build ubuntu_disco.simg singularity_example_5.txt

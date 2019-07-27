@@ -28,4 +28,4 @@ script:
   # Build an image, must use sudo
   - sudo ./script
   # Run the container
-  - ./ubuntu_cosmic.simg
+  - ./ubuntu_disco.simg
