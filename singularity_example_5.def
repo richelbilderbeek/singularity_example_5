@@ -1,6 +1,5 @@
-Bootstrap: shub
-
-From: pavel-demin/singularity-ubuntu:1804
+BootStrap: library
+From: ubuntu:18.04
 
 %runscript
 
@@ -19,7 +18,7 @@ From: pavel-demin/singularity-ubuntu:1804
 
     NAME singularity_example_5
  
-    DESCRIPTION Singularity example 5: Singularity 2.5, Ubuntu 19.04 (disco)
+    DESCRIPTION Singularity example 5: Singularity 3.2.1, Ubuntu 19.04 (disco)
 
     USAGE simply run the container
 
