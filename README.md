@@ -4,6 +4,10 @@ Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 ---|---
 `master`|[![Build Status](https://travis-ci.org/richelbilderbeek/singularity_example_5.svg?branch=master)](https://travis-ci.org/richelbilderbeek/singularity_example_5)
 
+```
+CANNOT GET THIS TO UPGRADE :-(
+```
+
 Singularity example 5: Create an empty Ubuntu 19.04 (Disco Dingo),
 by upgrading from an empty 18.04 (Bionic Beaver) container.
 

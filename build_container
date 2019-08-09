@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo singularity build ubuntu_disco.sif singularity_example_5.def
+sudo singularity build singularity_example_5.sif singularity_example_5.def

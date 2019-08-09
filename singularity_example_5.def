@@ -7,10 +7,10 @@ From: ubuntu:18.10
 
 %post
 
-    sed -i 's/bionic/disco/g' /etc/apt/sources.list
+    #sed -i 's/bionic/disco/g' /etc/apt/sources.list
     apt-get update
-    apt-get --yes upgrade
-    apt-get --yes dist-upgrade 
+    #apt-get upgrade --yes 
+    apt-get dist-upgrade --yes  
 
 %labels
 
